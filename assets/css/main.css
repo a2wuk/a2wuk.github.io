@@ -1,0 +1,111 @@
+.child-three, .child-one {
+    flex-grow: 0;
+    }
+    
+.video-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* This will ensure nothing goes outside the container */
+    }
+    
+.video-container video {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain; /* This makes sure the video covers the area, you can change it to 'contain' if you don't want the video to be cropped */
+    }
+    
+.icons-set picture, .icons-set img{
+    cursor: pointer;
+    padding: 2px;
+    /* border:3px solid black; */
+    max-width:100%;
+    }
+    
+.awyellowbackground{background-color:#F9D030}
+.awmagentabackground{background-color:#F4299F}
+.awgreenbackground{background-color:#B8EE30}
+.awwbluebackground{background-color:#26DFD0}
+.text > *:hover,.lavenderbackground {
+    background-color: #fffcf5;
+    }
+
+.highlighted {
+    background-color: yellow; /* Or any other style you prefer for highlighting */
+    }
+
+.darkback{background:#fff}
+
+.media-player a{
+    font-size: 30px;
+    color: #978686;
+    cursor: pointer;
+    text-decoration:none!important
+    }
+
+.media-player a:hover,.media-player a:active,.media-player a:focus{
+    color: #5a4848;
+    }
+
+html body{font-family:'poppins',sans-serif}
+    
+@media (max-width:576px) {
+    .icons-set picture{max-width:59px;margin:1px;padding:3px;}
+    .logo {
+        max-width: 65%;
+        margin: 0 auto;
+        padding-bottom: 3px;
+    }
+    .video-container{padding:0 30px}
+    .content{padding:0 10px!important}
+}
+    
+@media (min-width: 768px) {
+    .mobile-head {
+        height: 100vh;
+    }
+    .darkback {
+        background: radial-gradient(#292626,#100e0e, #292626);
+    }   
+    
+    .child {
+        flex-grow: 1; /* Adjust this value as needed for other children */
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .brand {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icons-set{margin:0 auto}
+    .media-player{margin-top:-10vh;margin-bottom:8vh}
+}
+    
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 700,
+    'GRAD' 200,
+    'opsz' 20
+}
+    
+    
+picture img{max-width:100%}
+
+.mobile-head{position:-webkit-sticky;position:sticky;top:0;z-index:1000}
+    
+    
+#sign-icon.active{filter:grayscale(0)}
+#sign-icon{filter:grayscale(1)}
+#text-icon.active{filter:grayscale(1)}
+#text-icon{filter:grayscale(0)}
+#speak-icon.active{filter:grayscale(1)}
+#speak-icon{filter:grayscale(0)}
+  
+.large-text{font-size:200%;font-family:'verdana', sans-serif;font-weight:400}
+    
+.easy-read #cognitive-icon{filter:grayscale(1)}
