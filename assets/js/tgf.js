@@ -22,6 +22,7 @@ if (!window.location.href.toLowerCase().includes("/original") && !window.locatio
     }
 }
 
+
 function toggleContrast() {
     var element = document.getElementById("accessible-content")
     element.classList.toggle("large-text");
@@ -93,6 +94,24 @@ function playVideoAtIndex(index) {
              currentVideoIndex = index;
          }
 
+
+
+function scrollIntoView(divElement){
+    const topPositionOfDiv = divElement.offsetTop;
+    const heightOfDiv = divElement.offsetHeight;
+    const windowHeight = window.innerHeight;
+
+    // Calculate the desired scroll position
+    const desiredScrollPosition = topPositionOfDiv + heightOfDiv - windowHeight;
+
+    // Scroll to the desired position
+    window.scrollTo({
+    top: desiredScrollPosition,
+    behavior: 'smooth',
+    });
+
+}
+
 function highlightSentence(index) {
     // Remove highlighting from all sentences
     document.querySelectorAll('[data-vid]').forEach(function(element) {
@@ -103,7 +122,7 @@ function highlightSentence(index) {
     var currentSentence = document.querySelector(`[data-vid="${playlist[index]}"]`);
     if (currentSentence) {
         currentSentence.classList.add('highlighted');
-        currentSentence.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        scrollIntoView(currentSentence);
     }
 }
 
@@ -255,3 +274,5 @@ document.getElementById('speak-icon').addEventListener('click', function() {
     videoPlayer0.muted = !videoPlayer0.muted;
     videoPlayer1.muted = !videoPlayer1.muted;
 });
+
+document.body.scrollTop = document.documentElement.scrollTop = 0;

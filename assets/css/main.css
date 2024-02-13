@@ -1,3 +1,6 @@
+.source {
+    padding: 5px;
+}
 .child-three, .child-one {
     flex-grow: 0;
     }
@@ -66,7 +69,7 @@ html body{font-family:'poppins',sans-serif}
         height: 100vh;
     }
     .darkback {
-        background: radial-gradient(#292626,#100e0e, #292626);
+        background: white;
     }   
     
     .child {
