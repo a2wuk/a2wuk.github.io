@@ -6,19 +6,37 @@ var preferredLanguage = navigator.language;
 if (!window.location.href.toLowerCase().includes("/original") && !window.location.href.toLowerCase().includes("/easy-read")) {
     switch (preferredLanguage) {
         case "en-GB": window.location.replace("./en-GB/original/index.html"); break
+        case "en": window.location.replace("./en-GB/original/index.html"); break
         case "zh-TW": window.location.replace("./zh-TW/original/index.html"); break
+        case "zh": window.location.replace("./zh-TW/original/index.html"); break
+        case "TW": window.location.replace("./zh-TW/original/index.html"); break
         case "fr-FR": window.location.replace("./fr-FR/original/index.html"); break
+        case "fr": window.location.replace("./fr-FR/original/index.html"); break
         case "de-DE": window.location.replace("./de-DE/original/index.html"); break
+        case "de": window.location.replace("./de-DE/original/index.html"); break
         case "it-IT": window.location.replace("./it-IT/original/index.html"); break
+        case "it": window.location.replace("./it-IT/original/index.html"); break
         case "ja-JP": window.location.replace("./ja-JP/original/index.html"); break
+        case "ja": window.location.replace("./ja-JP/original/index.html"); break
+        case "JP": window.location.replace("./ja-JP/original/index.html"); break
         case "ko-KR": window.location.replace("./ko-KR/original/index.html"); break
+        case "ko": window.location.replace("./ko-KR/original/index.html"); break
+        case "KR": window.location.replace("./ko-KR/original/index.html"); break
         case "pt-PT": window.location.replace("./pt-PT/original/index.html"); break
+        case "pt": window.location.replace("./pt-PT/original/index.html"); break
         case "es-ES": window.location.replace("./es-ES/original/index.html"); break
+        case "es": window.location.replace("./es-ES/original/index.html"); break
         case "cy-GB": window.location.replace("./cy-GB/original/index.html"); break
+        case "cy": window.location.replace("./cy-GB/original/index.html"); break
         case "tr-TR": window.location.replace("./tr-TR/original/index.html"); break
+        case "tr": window.location.replace("./tr-TR/original/index.html"); break
         case "ru-RU": window.location.replace("./ru-RU/original/index.html"); break
+        case "ru": window.location.replace("./ru-RU/original/index.html"); break
         case "ro-RO": window.location.replace("./ro-RO/original/index.html"); break
+        case "ro": window.location.replace("./ro-RO/original/index.html"); break
         case "is-IS": window.location.replace("./is-IS/original/index.html"); break
+        case "is": window.location.replace("./is-IS/original/index.html"); break
+        default: window.location.replace("./en-GB/original/index.html"); 
     }
 }
 
