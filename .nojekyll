@@ -1,0 +1,2 @@
+- name: Disable Jekyll
+  run: touch release/wwwroot/.nojekyll
