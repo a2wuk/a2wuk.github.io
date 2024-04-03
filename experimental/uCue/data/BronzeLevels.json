@@ -1,0 +1,584 @@
+﻿{
+  "games": [
+    {
+      "game": "Game One",
+      "words": [
+        {
+          "word": "pea",
+          "csn": [ "1","m" ],
+          "ipa": "/pˑi:/",
+          "image": "pea.png",
+          "sound": "pea_sound.aac",
+          "video": "video_pea.mp4"
+        },
+        {
+          "word": "bee",
+          "csn": [ "4", "m" ],
+          "ipa": "/bˑi:/",
+          "image": "bee.png",
+          "sound": "bee.aac",
+          "video": "video_bee.mp4"
+        },
+        {
+          "word": "me",
+          "csn": [ "5", "m" ],
+          "ipa": "/mˑi:/",
+          "image": "me.png",
+          "sound": "me.aac",
+          "video": "video_me.mp4"
+        }
+      ]
+    },
+    {
+      "game": "Game Two",
+      "words": [
+        {
+          "word": "door",
+          "csn": [ "1", "m" ],
+          "ipa": "/dˑɔ:/",
+          "image": "door.png",
+          "sound": "door.aac",
+          "video": "video_door.mp4"
+        },
+        {
+          "word": "four",
+          "csn": [ "5", "m" ],
+          "ipa": "/fˑɔ:/",
+          "image": "four.png",
+          "sound": "four.aac",
+          "video": "video_four.mp4"
+        },
+        {
+          "word": "shore",
+          "csn": [ "6","m" ],
+          "ipa": "/ʃˑɔ:/",
+          "image": "shore.png",
+          "sound": "shore.aac",
+          "video": "video_shore.mp4"
+        }
+      ]
+    },
+    {
+      "game": "Game Three",
+      "words": [
+        {
+          "word": "bug",
+          "csn": [ "4", "m", "7" ],
+          "ipa": "/bˑʌˑg/",
+          "image": "bug.png",
+          "sound": "bug.aac",
+          "video": "video_bug.mp4"
+        },
+        {
+          "word": "mug",
+          "csn": [ "5", "m", "7" ],
+          "ipa": "/mˑʌˑg/",
+          "image": "mug.png",
+          "sound": "mug.aac",
+          "video": "video_mug.mp4"
+        },
+        {
+          "word": "jug",
+          "csn": [ "7", "m", "7" ],
+          "ipa": "/d\u200dʒˑʌˑg/",
+          "image": "jug.png",
+          "sound": "jug.aac",
+          "video": "video_jug.mp4"
+        }
+      ]
+    },
+    {
+      "game": "Game Four",
+      "words": [
+        {
+          "word": "pen",
+          "csn": [ "1", "c", "4" ],
+          "ipa": "/pˑeˑn/",
+          "image": "pen.png",
+          "sound": "pen.aac",
+          "video": "video_pen.mp4"
+        },
+        {
+          "word": "net",
+          "csn": [ "4", "c", "5" ],
+          "ipa": "/nˑeˑt/",
+          "image": "net.png",
+          "sound": "net.aac",
+          "video": "video_net.mp4"
+        },
+        {
+          "word": "tent",
+          "csn": [ "5", "c", "4", "5" ],
+          "ipa": "/tˑeˑnˑt/",
+          "image": "tent.png",
+          "sound": "tent.aac",
+          "video": "video_tent.mp4"
+        }
+      ]
+    },
+    {
+      "game": "Game Five",
+      "words": [
+        {
+          "word": "fog",
+          "csn": [ "5", "c", "7" ],
+          "ipa": "/fˑɒˑg/",
+          "image": "fog.png",
+          "sound": "fog.aac",
+          "video": "video_fog.mp4"
+        },
+        {
+          "word": "frog",
+          "csn": [ "5", "3", "c", "7" ],
+          "ipa": "/fˑrˑɒˑg/",
+          "image": "frog.png",
+          "sound": "frog.aac",
+          "video": "video_frog.mp4"
+        },
+        {
+          "word": "moth",
+          "csn": [ "5", "c", "7" ],
+          "ipa": "/mˑɒˑθ/",
+          "image": "moth.png",
+          "sound": "moth.aac",
+          "video": "video_moth.mp4"
+        }
+      ]
+    },
+    {
+      "game": "Game Six",
+      "words": [
+        {
+          "word": "shoes",
+          "csn": [ "6", "c", "2" ],
+          "ipa": "/ʃˑu:ˑz/",
+          "image": "shoes.png",
+          "sound": "shoes.aac",
+          "video": "video_shoes.mp4"
+        },
+        {
+          "word": "boot",
+          "csn": [ "4", "c", "5" ],
+          "ipa": "/bˑu:ˑt/",
+          "image": "boot.png",
+          "sound": "boot.aac",
+          "video": "video_boot.mp4"
+        },
+        {
+          "word": "moon",
+          "csn": [ "5", "c", "4" ],
+          "ipa": "/mˑu:ˑn/",
+          "image": "moon.png",
+          "sound": "moon.aac",
+          "video": "video_moon.mp4"
+        }
+      ]
+    },
+    {
+      "game": "Game Seven",
+      "words": [
+        {
+          "word": "book",
+          "csn": [ "4", "t", "2" ],
+          "ipa": "/bˑʊˑk/",
+          "image": "book.png",
+          "sound": "book.aac",
+          "video": "video_book.mp4"
+        },
+        {
+          "word": "cook",
+          "csn": [ "2", "t", "2" ],
+          "ipa": "/kˑʊˑk/",
+          "image": "cook.png",
+          "sound": "cook.aac",
+          "video": "video_cook.mp4"
+        },
+        {
+          "word": "hook",
+          "csn": [ "3", "t", "2" ],
+          "ipa": "/hˑʊˑk/",
+          "image": "hook.png",
+          "sound": "hook.aac",
+          "video": "video_hook.mp4"
+        }
+      ]
+    },
+    {
+      "game": "Game Eight",
+      "words": [
+        {
+          "word": "king",
+          "csn": [ "2", "t", "8" ],
+          "ipa": "/kˑɪˑŋ/",
+          "image": "king.png",
+          "sound": "king.aac",
+          "video": "video_king.mp4"
+        },
+        {
+          "word": "ring",
+          "csn": [ "3", "t", "8" ],
+          "ipa": "/rˑɪˑŋ/",
+          "image": "ring.png",
+          "sound": "ring.aac",
+          "video": "video_ring.mp4"
+        },
+        {
+          "word": "wing",
+          "csn": [ "6", "t", "8" ],
+          "ipa": "/wˑɪˑŋ/",
+          "image": "wing.png",
+          "sound": "wing.aac",
+          "video": "video_wing.mp4"
+        }
+      ]
+    },
+    {
+      "game": "Game Nine",
+      "words": [
+        {
+          "word": "cat",
+          "csn": [ "2", "t", "5" ],
+          "ipa": "/kˑæˑt/",
+          "image": "cat.png",
+          "sound": "cat.aac",
+          "video": "video_cat.mp4"
+        },
+        {
+          "word": "tap",
+          "csn": [ "5", "t", "1" ],
+          "ipa": "/tˑæˑp/",
+          "image": "tap.png",
+          "sound": "tap.aac",
+          "video": "video_tap.mp4"
+        },
+        {
+          "word": "pan",
+          "csn": [ "1", "t", "4" ],
+          "ipa": "/pˑæˑn/",
+          "image": "pan.png",
+          "sound": "pan.aac",
+          "video": "video_pan.mp4"
+        }
+      ]
+    },
+    {
+      "game": "Game Ten",
+      "words": [
+        {
+          "word": "car",
+          "csn": [ "2", "sf" ],
+          "ipa": "/kˑɑ:/",
+          "image": "car.png",
+          "sound": "car.aac",
+          "video": "video_car.mp4"
+        },
+        {
+          "word": "card",
+          "csn": [ "2", "sf", "1" ],
+          "ipa": "/kˑɑ:ˑd/",
+          "image": "card.png",
+          "sound": "card.aac",
+          "video": "video_card.mp4"
+        },
+        {
+          "word": "dark",
+          "csn": [ "1", "sf", "2" ],
+          "ipa": "/dˑɑ:ˑk/",
+          "image": "dark.png",
+          "sound": "dark.aac",
+          "video": "video_dark.mp4"
+        }
+      ]
+    },
+    {
+      "game": "Game Eleven",
+      "words": [
+        {
+          "word": "curl",
+          "csn": [ "2", "sf", "6" ],
+          "ipa": "/kˑɜ:ˑl/",
+          "image": "curl.png",
+          "sound": "curl.aac",
+          "video": "video_curl.mp4"
+        },
+        {
+          "word": "girl",
+          "csn": [ "7", "sf", "6" ],
+          "ipa": "/gˑɜ:ˑl/",
+          "image": "girl.png",
+          "sound": "girl.aac",
+          "video": "video_girl.mp4"
+        },
+        {
+          "word": "pearl",
+          "csn": [ "1", "sf", "6" ],
+          "ipa": "/pˑɜ:ˑl/",
+          "image": "pearl.png",
+          "sound": "pearl.aac",
+          "video": "video_pearl.mp4"
+        }
+      ]
+    },
+    {
+      "game": "Game Twelve",
+      "words": [
+        {
+          "word": "sail",
+          "csn": [ "3", "c", "5", "t", "6" ],
+          "ipa": "/sˑe\u200dɪˑl/",
+          "image": "sail.png",
+          "sound": "sail.aac",
+          "video": "video_sail.mp4"
+        },
+        {
+          "word": "lake",
+          "csn": [ "6", "c", "5", "t", "2" ],
+          "ipa": "/lˑe\u200dɪˑk/",
+          "image": "lake.png",
+          "sound": "lake.aac",
+          "video": "video_lake.mp4"
+        },
+        {
+          "word": "cave",
+          "csn": [ "2", "c", "5", "t", "2" ],
+          "ipa": "/kˑe\u200dɪˑv/",
+          "image": "cave.png",
+          "sound": "cave.aac",
+          "video": "video_cave.mp4"
+        }
+      ]
+    },
+    {
+      "game": "Game Thirteen",
+      "words": [
+        {
+          "word": "toy",
+          "csn": [ "5", "c", "t" ],
+          "ipa": "/tˑɔ\u200dɪ/",
+          "image": "toy.png",
+          "sound": "toy.aac",
+          "video": "video_toy.mp4"
+        },
+        {
+          "word": "boy",
+          "csn": [ "4", "c", "5", "t" ],
+          "ipa": "/bˑɔ\u200dɪ/",
+          "image": "boy.png",
+          "sound": "boy.aac",
+          "video": "video_boy.mp4"
+        },
+        {
+          "word": "boys",
+          "csn": [ "4", "c", "5", "t", "2" ],
+          "ipa": "/bˑɔ\u200dɪˑz/",
+          "image": "boys.png",
+          "sound": "boys.aac",
+          "video": "video_boys.mp4"
+        }
+      ]
+    },
+    {
+      "game": "Game Fourteen",
+      "words": [
+        {
+          "word": "pear",
+          "csn": [ "1", "csd" ],
+          "ipa": "/pˑe\u200də/",
+          "image": "pear.png",
+          "sound": "pear.aac",
+          "video": "video_pear.mp4"
+        },
+        {
+          "word": "bear",
+          "csn": [ "4", "csd" ],
+          "ipa": "/bˑe\u200də/",
+          "image": "bear.png",
+          "sound": "bear.aac",
+          "video": "video_bear.mp4"
+        },
+        {
+          "word": "chair",
+          "csn": [ "8", "csd" ],
+          "ipa": "/t\u200dʃˑe\u200də/",
+          "image": "chair.png",
+          "sound": "chair.aac",
+          "video": "video_chair.mp4"
+        }
+      ]
+    },
+    {
+      "game": "Game Fifteen",
+      "words": [
+        {
+          "word": "ear",
+          "csn": [ "tsd" ],
+          "ipa": "/ɪ\u200də/",
+          "image": "ear.png",
+          "sound": "ear.aac",
+          "video": "video_ear.mp4"
+        },
+        {
+          "word": "ears",
+          "csn": [ "tsd", "2" ],
+          "ipa": "/ɪ\u200dəˑz/",
+          "image": "ears.png",
+          "sound": "ears.aac",
+          "video": "video_ears.mp4"
+        },
+        {
+          "word": "eye",
+          "csn": [ "5", "st" ],
+          "ipa": "/a\u200dɪ/",
+          "image": "eye.png",
+          "sound": "eye.aac",
+          "video": "video_eye.mp4"
+        },
+        {
+          "word": "eyes",
+          "csn": [ "5", "st", "2" ],
+          "ipa": "/a\u200dɪˑz/",
+          "image": "eyes.png",
+          "sound": "eyes.aac",
+          "video": "video_eyes.mp4"
+        }
+      ]
+    },
+    {
+      "game": "Game Sixteen",
+      "words": [
+        {
+          "word": "nose",
+          "csn": [ "4", "st", "2" ],
+          "ipa": "/nˑə\u200dʊˑz/",
+          "image": "nose.png",
+          "sound": "nose.aac",
+          "video": "video_nose.mp4"
+        },
+        {
+          "word": "mouth",
+          "csn": [ "5", "st", "7" ],
+          "ipa": "/mˑa\u200dʊˑθ/",
+          "image": "mouth.png",
+          "sound": "mouth.aac",
+          "video": "video_mouth.mp4"
+        },
+        {
+          "word": "chin",
+          "csn": [ "8", "t", "4" ],
+          "ipa": "/t\u200dʃˑɪˑn/",
+          "image": "chin.png",
+          "sound": "chin.aac",
+          "video": "video_chin.mp4"
+        },
+        {
+          "word": "head",
+          "csn": [ "3", "c", "1" ],
+          "ipa": "/hˑeˑd/",
+          "image": "head.png",
+          "sound": "head.aac",
+          "video": "video_head.mp4"
+        }
+      ]
+    },
+    {
+      "game": "Game Seventeen",
+      "words": [
+        {
+          "word": "happy",
+          "csn": [ "3", "t", "1", "m" ],
+          "ipa": "/hˑæˑpˑi:/",
+          "image": "happy.png",
+          "sound": "happy.aac",
+          "video": "video_happy.mp4"
+        },
+        {
+          "word": "silly",
+          "csn": [ "3", "t", "6", "m" ],
+          "ipa": "/sˑɪˑlˑi:/",
+          "image": "silly.png",
+          "sound": "silly.aac",
+          "video": "video_silly.mp4"
+        }
+      ]
+    },
+    {
+      "game": "Game Eighteen",
+      "words": [
+        {
+          "word": "money",
+          "csn": [ "5", "m", "4", "m" ],
+          "ipa": "/mˑʌˑnˑi:/",
+          "image": "money.png",
+          "sound": "money.aac",
+          "video": "video_money.mp4"
+        },
+        {
+          "word": "mummy",
+          "csn": [ "5", "m", "5", "m" ],
+          "ipa": "/mˑʌˑmˑi:/",
+          "image": "mummy.png",
+          "sound": "mummy.aac",
+          "video": "video_mummy.mp4"
+        },
+        {
+          "word": "daddy",
+          "csn": [ "1", "t", "1", "m" ],
+          "ipa": "/dˑæˑdˑi:/",
+          "image": "daddy.png",
+          "sound": "daddy.aac",
+          "video": "video_daddy.mp4"
+        }
+      ]
+    },
+    {
+      "game": "Game Nineteen",
+      "words": [
+        {
+          "word": "letter",
+          "csn": [ "6", "c", "5", "sd" ],
+          "ipa": "/lˑeˑtˑə/",
+          "image": "letter.png",
+          "sound": "letter.aac",
+          "video": "video_letter.mp4"
+        },
+        {
+          "word": "feather",
+          "csn": [ "5", "c", "2", "sd" ],
+          "ipa": "/fˑeˑðˑə/",
+          "image": "feather.png",
+          "sound": "feather.aac",
+          "video": "video_feather.mp4"
+        }
+      ]
+    },
+    {
+      "game": "Game Twenty",
+      "words": [
+        {
+          "word": "teacher",
+          "csn": [ "5", "m", "8", "sd" ],
+          "ipa": "/tˑi:ˑt\u200dʃˑə/",
+          "image": "teacher.png",
+          "sound": "teacher.aac",
+          "video": "video_teacher.mp4"
+        },
+        {
+          "word": "measure",
+          "csn": [ "5", "c", "1", "sd" ],
+          "ipa": "/mˑeˑʒˑə/",
+          "image": "measure.png",
+          "sound": "measure.aac",
+          "video": "video_measure.mp4"
+        },
+        {
+          "word": "cure",
+          "csn": [ "2", "8", "tsd" ],
+          "ipa": "/kˑjˑʊ\u200də/",
+          "image": "cure.png",
+          "sound": "cure.aac",
+          "video": "video_cure.mp4"
+        }
+      ]
+    }
+  ]
+}
