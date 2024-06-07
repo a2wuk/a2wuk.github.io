@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="cy">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access to Words - Accessible Communications at Scale: Sign Language, Easy-Read, Spoken Word, International Languages</title>
+    <link rel="icon" type="image/png" href="/favicon.png">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body class="easy-read">
+    <div class="container-fluid">
+        <div class="row d-flex" style="min-height:100vh">
+            <!-- Left column -->
+            <div class="d-flex col-md-6 mobile-head flex-column darkback">
+                <div class="brand child child-one">
+                     <!-- Content of left column -->
+                     <a href="https://accesstowords.com/" class="active logo">
+                        <picture>
+                            <source media="(min-width: 576px)" srcset="/assets/img/primarylogo4.png">
+                            <img src="/assets/img/secondarylogo3.png" alt="Access to Words logo - a 2 by 2 grid of squares representing different accessibility requirements." />
+                        </picture>
+                    </a>
+                    <div class="fixed-sign-language icons-set d-flex">
+                        <picture>
+                            <source media="(min-width: 576px)" srcset="/assets/img/bsl-wide1.png">
+                            <img id="sign-icon" src="/assets/img/bsl-small2.png" alt="Play British Sign Language Translation." title="Sign Language">
+                        </picture>
+                        <picture onclick="toggleContrast()">
+                            <source media="(min-width: 576px)" srcset="/assets/img/typeface-wide1.png">
+                            <img id="text-icon" src="/assets/img/typeface-small2.png" alt="Swap between normal and enhanced text" title="Enhanced Text">
+                        </picture>
+                        <picture>
+                            <source media="(min-width: 576px)" srcset="/assets/img/spokenword-wide1.png">
+                            <img id="speak-icon" src="/assets/img/spokenword-small2.png" alt="Turn spoken words on or off." title="Spoken Words">
+                        </picture>
+                        <picture>
+                            <source media="(min-width: 576px)" srcset="/assets/img/easyread-wide1.png">
+                            <img id="cognitive-icon" src="/assets/img/easyread-small2.png" alt="Swap between original and easy-read wording" title="Easy-Read" onclick="toggleEasyRead()">
+                        </picture>                    </div>
+                </div>                
+                <div class="video-container child child-two" id="vidplayer" style="display:flex">
+                    <video style="" id="videoPlayer0">hello</video>
+                <video style="display:none" id="videoPlayer1" >hello</video>
+                <audio id="audioPlayer" type="audio/mpeg"></audio>
+                </div>
+                <div id="mediaplayer" style="display:flex" class="child child-three mx-auto w-50 justify-content-center media-player d-flex">
+                    <a class="m-2 material-symbols-outlined"id="video-previous" >
+                        fast_rewind
+                    </a>
+                    <a class="m-2 material-symbols-outlined" id="pause-play">
+                        play_pause
+                    </a>
+                    <a class="m-2 material-symbols-outlined" id="video-next">
+                        fast_forward
+                    </a>
+                </div>
+            </div>
+            <!-- Right column -->
+            <div class="col-md-6 content p-5">
+                <!-- Content of right column -->
+                <div class="text" id="accessible-content" style="max-width: 970px;margin:0 auto">
+
+<div 
+data-audio="0.mp3" data-vid="https://vod.api.video/vod/vi4bTQ0t7ULsP0jRxTVcdfiP/mp4/source.mp4">Ydych chi eisiau help?</div>
+
+<div 
+data-audio="1.mp3" data-vid="https://vod.api.video/vod/vi4QYVnJNRyRfaKZgHma3Mgg/mp4/source.mp4">Gallaf ddangos i chi.</div>
+
+<div 
+data-audio="2.mp3" data-vid="https://vod.api.video/vod/vi4rBnw8eZxtN6sJg9iS4hCX/mp4/source.mp4">Cyrraedd y maes parcio a gwneud eich ffordd i'r brif fynedfa.</div>
+
+<div 
+data-audio="3.mp3" data-vid="https://vod.api.video/vod/vi4pulGdmHo9LN24epirrPo3/mp4/source.mp4">Gwthiwch y botwm i agor y drws. Ewch trwy'r drws a throwch i'r dde.</div>
+
+<div 
+data-audio="4.mp3" data-vid="https://vod.api.video/vod/vi53Jxtf1sPyo8id6BsdvK2u/mp4/source.mp4">Mae'r toiledau ychydig ymhellach ar hyd</div>
+
+<div 
+data-audio="5.mp3" data-vid="https://vod.api.video/vod/viMzej15IgHwLrgsR1KWUCq/mp4/source.mp4">Toiledau i'r anabl yw'r 3ydd drws.</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="center-justify">
+        <small>
+        <hr />
+            <p>Experimental AI Sign Language Translations © <a href="https://accesstowords.com/">Access to Words.</a></p>
+        </small>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/tgf.js"></script>
+</body>
+</html>
