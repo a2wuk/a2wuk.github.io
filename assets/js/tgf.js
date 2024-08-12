@@ -294,3 +294,78 @@ document.getElementById('speak-icon').addEventListener('click', function() {
 });
 
 document.body.scrollTop = document.documentElement.scrollTop = 0;
+
+// Engage code
+async function postFingerprintData() {
+    const data = {
+        url: window.location.href,
+        browserIdentity: navigator.userAgent,
+        operatingSystem: await getOperatingSystem(),
+        preferredLanguages: navigator.languages,
+        timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+        screenResolution: `${window.screen.width}x${window.screen.height}`,
+        deviceMemory: navigator.deviceMemory,
+        cpuClass: navigator.hardwareConcurrency,
+        touchSupport: 'ontouchstart' in window,
+        colorDepth: window.screen.colorDepth,
+        hardwareConcurrency: navigator.hardwareConcurrency,
+        doNotTrackStatus: navigator.doNotTrack,
+        batteryStatus: await getBatteryStatus(),
+        ipAddress: await getPublicIP()        
+      };
+
+      async function getPublicIP() {
+        try {
+          const response = await fetch('https://api.ipify.org?format=json');
+          const data = await response.json();
+          return data.ip;
+        } catch (error) {
+          console.error('Error fetching public IP:', error);
+          return null;
+        }
+      }
+    async function getOperatingSystem() {
+        try {
+        // Use the User-Agent Client Hints API if available
+        if (navigator.userAgentData && navigator.userAgentData.platform) {
+            return navigator.userAgentData.platform;
+          }
+          // Fallback to navigator.platform (deprecated)
+          return navigator.platform;
+          } catch (error) {
+            return null;
+        }
+      }
+  
+      function getBatteryStatus() {
+        return navigator.getBattery()
+          .then(battery => {
+            const level = Math.floor(battery.level * 100); // Get battery level as a percentage
+            const charging = battery.charging ? "charging" : "discharging";
+            return `Battery level: ${level}%, Charging: ${charging}`;
+          })
+          .catch(error => {
+            return null;
+          });
+      }
+
+    // Post the data to the endpoint
+    try {
+      const response = await fetch('https://a2w-engage-app.azurewebsites.net/api/engagehttptrigger?code=GtCEUT2OeNGJyzSgatdi5Qx_yH8NKbHg40O4-pXLEeyBAzFuFrZeTA%3D%3D', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      });
+  
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+  
+    } catch (error) {
+      console.error('Error posting data:', error);
+    }
+  }
+  
+  postFingerprintData();
