@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Righteous&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/main.css">
 </head>
 
 <body class="original">
@@ -28,25 +28,25 @@
                     <div class="fixed-sign-language icons-set d-flex">
                         <picture>
                             <source media="(min-width: 576px)" srcset="/assets/img/bsl-wide1.png">
-                            <img id="sign-icon" src="/assets/img/bsl-small2.png" alt="Play British Sign Language Translation.">
+                            <img id="sign-icon" src="/assets/img/bsl-small2.png" alt="Play British Sign Language Translation." title="Sign Language">
                         </picture>
                         <picture onclick="toggleContrast()">
                             <source media="(min-width: 576px)" srcset="/assets/img/typeface-wide1.png">
-                            <img id="text-icon" src="/assets/img/typeface-small2.png" alt="Swap between normal and enhanced text" >
+                            <img id="text-icon" src="/assets/img/typeface-small2.png" alt="Swap between normal and enhanced text" title="Enhanced Text">
                         </picture>
                         <picture>
                             <source media="(min-width: 576px)" srcset="/assets/img/spokenword-wide1.png">
-                            <img id="speak-icon" src="/assets/img/spokenword-small2.png" alt="Turn spoken words on or off.">
+                            <img id="speak-icon" src="/assets/img/spokenword-small2.png" alt="Turn spoken words on or off." title="Spoken Words">
                         </picture>
                         <picture>
                             <source media="(min-width: 576px)" srcset="/assets/img/easyread-wide1.png">
-                            <img id="cognitive-icon" src="/assets/img/easyread-small2.png" alt="Swap between original and easy-read wording" onclick="toggleEasyRead()">
-                        </picture>
-                    </div>
+                            <img id="cognitive-icon" src="/assets/img/easyread-small2.png" alt="Swap between original and easy-read wording" title="Easy-Read" onclick="toggleEasyRead()">
+                        </picture>                    </div>
                 </div>                
                 <div class="video-container child child-two" id="vidplayer" style="display:flex">
                     <video style="" id="videoPlayer0">hello</video>
                 <video style="display:none" id="videoPlayer1" >hello</video>
+                <audio id="audioPlayer" type="audio/mpeg"></audio>
                 </div>
                 <div id="mediaplayer" style="display:flex" class="child child-three mx-auto w-50 justify-content-center media-player d-flex">
                     <a class="m-2 material-symbols-outlined"id="video-previous" >
@@ -65,44 +65,50 @@
                 <!-- Content of right column -->
                 <div class="text" id="accessible-content" style="max-width: 970px;margin:0 auto">
 
-<div data-vid="https://vod.api.video/vod/vi732QHl4Vg3aE2NsDKeGfTk/mp4/source.mp4"><p>Do you want help finding your way around?</p>
-</div>
+<div 
+data-audio="./0.mp3" data-vid="https://vod.api.video/vod/vi7UwQccGf36vJwytsSyyLkH/mp4/source.mp4">Do you want help finding your way around?</div>
 
-<div data-vid="https://vod.api.video/vod/vi2NifOAOioAci1x5jIByoXH/mp4/source.mp4"><p>I can help you with that.</p>
-</div>
+<div 
+data-audio="./1.mp3" data-vid="https://vod.api.video/vod/vi65AETW8zblX8o1VK6472LA/mp4/source.mp4">I can help you with that.</div>
 
-<div data-vid="https://vod.api.video/vod/viDLAVcbDRKoVZaQoh5S5uu/mp4/source.mp4"><p>Where should you go when you arrive?</p>
-</div>
+<div 
+data-audio="./2.mp3" data-vid="https://vod.api.video/vod/vi5WjCTx9t0f4yW9OAHKEQQE/mp4/source.mp4">Where should you go when you arrive?</div>
 
-<div data-vid="https://vod.api.video/vod/vi4xNhwqTVpQPacvHK68I7tF/mp4/source.mp4"><p>Turn left then go straight ahead, you should see &quot;OUTPATIENT SERVICES&quot; on your left.</p>
-</div>
+<div 
+data-audio="./3.mp3" data-vid="https://vod.api.video/vod/vi28oS87oaoiVR46hiBUOHMc/mp4/source.mp4">Turn right then go straight ahead, you should see "OUTPATIENT SERVICES" on your left.</div>
 
-<div data-vid="https://vod.api.video/vod/vimQBLYmYAVi7lqUheAP3MA/mp4/source.mp4"><p>Go straight on and then turn left.</p>
-</div>
+<div 
+data-audio="./4.mp3" data-vid="https://vod.api.video/vod/vi4o4gc1trHVEFUFTX5PPMwX/mp4/source.mp4">Go straight on and then turn left.</div>
 
-<div data-vid="https://vod.api.video/vod/vi60jbSWWMlZR9tBf8eHoYOJ/mp4/source.mp4"><p>When you see the sign &quot;X-RAY&quot;, go through the blue doors.</p>
-</div>
+<div 
+data-audio="./5.mp3" data-vid="https://vod.api.video/vod/vi2ocsEFHPA4tZwD3TJ50bCx/mp4/source.mp4">When you see the sign "X-RAY", go through the blue doors.</div>
 
-<div data-vid="https://vod.api.video/vod/vi2mmgLRcfH6Q4zSBPn1LntQ/mp4/source.mp4"><p>Go through another set of blue doors.</p>
-</div>
+<div 
+data-audio="./6.mp3" data-vid="https://vod.api.video/vod/vi4lHgRY31HX06cQOlgJyu8l/mp4/source.mp4">Go through another set of blue doors.</div>
 
-<div data-vid="https://vod.api.video/vod/vi5eRTKyDKGeH9Bkfa4JS0LE/mp4/source.mp4"><p>Continue through the corridor.</p>
-</div>
+<div 
+data-audio="./7.mp3" data-vid="https://vod.api.video/vod/vi2Wl5QQKByh1kAUj6Oz1S3x/mp4/source.mp4">Continue through the corridor.</div>
 
-<div data-vid="https://vod.api.video/vod/vi3lauN9NjJ02JkfA6j0A76q/mp4/source.mp4"><p>Continue down the corridor until you can turn right, about half way along.</p>
-</div>
+<div 
+data-audio="./8.mp3" data-vid="https://vod.api.video/vod/vi6hZTbPPek7occLBhzreU2Y/mp4/source.mp4">Continue down the corridor until you can turn right, about half way along.</div>
 
-<div data-vid="https://vod.api.video/vod/vi1ZTjKyMrzg45LivzL3KKNU/mp4/source.mp4"><p>You will see a sign &quot;Hearing &amp; Balance&quot;.</p>
-</div>
+<div 
+data-audio="./9.mp3" data-vid="https://vod.api.video/vod/vi51Xur3Q91IRbtTbv7joXYn/mp4/source.mp4">You will see a sign "Hearing & Balance".</div>
 
-<div data-vid="https://vod.api.video/vod/vi337DohbZgbFpQlvdJ8TiYq/mp4/source.mp4"><p>Go to the end of the corridor, through the doors, and you will arrive at reception.</p>
-</div>
+<div 
+data-audio="./10.mp3" data-vid="https://vod.api.video/vod/vi44YaCx1s1BfnxOrJMMvfLx/mp4/source.mp4">Go to the end of the corridor, through the doors, and you will arrive at reception.</div>
 
                 </div>
             </div>
         </div>
     </div>
+    <div class="center-justify">
+        <small>
+        <hr />
+            <p>Experimental AI Sign Language Translations © <a href="https://accesstowords.com/">Access to Words.</a></p>
+        </small>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/js/tgf.js"></script>
+    <script src="../../assets/js/tgf.js"></script>
 </body>
 </html>
